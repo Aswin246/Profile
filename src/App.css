@@ -1,0 +1,60 @@
+/* App.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0; /* Light gray background color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff; /* White container background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff; /* Blue button color */
+  color: #fff; /* White text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%; /* Make the button full width */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Profile.jsx */
+
+/* Add some spacing between profile items */
+div {
+  margin-bottom: 8px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc; /* Light gray horizontal line */
+  margin: 10px 0;
+}
